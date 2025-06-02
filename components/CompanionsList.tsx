@@ -1,7 +1,7 @@
 import {
   Table,
   TableBody,
-  TableCaption,
+ 
   TableCell,
   TableHead,
   TableHeader,
@@ -10,7 +10,7 @@ import {
 import { cn, getSubjectColor } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
-import { subjectsColors } from "@/constants";
+// import { subjectsColors } from "@/constants";
 interface ComapanionsListProps {
   title: string;
   comapanions?: Companion[];

@@ -12,13 +12,12 @@ import Image from "next/image";
 import Link from "next/link";
 // import { subjectsColors } from "@/constants";
 interface ComapanionsListProps {
-  title: string;
-  comapanions?: Companion[];
+  title?: string;
+  companions?: Companion[];
   classNames?: string;
 }
 
 const CompanionsList = ({
-  title,
   companions,
   classNames,
 }: ComapanionsListProps) => {

@@ -14,6 +14,7 @@ const SearchInput = () => {
     const [searchQuery, setSearchQuery] = useState('');
 
     useEffect(() => {
+   
         const delayDebounceFn = setTimeout(() => {
             if(searchQuery) {
                 const newUrl = formUrlQuery({
